@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header {
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+    background-color: rgb(170, 0, 204);
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.head {
+    width: 100%;
+    height: 70px;
+
+}
+
+.head1 {
+    display: flex;
+    margin-left: 37%;
+}
+
+.head1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.nav-item :hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+}
+
+.Welcome {
+    width: 100%;
+    height: 81.5vh;
+    text-align: center;
+    background-image: url(photos/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.Welcome h1 {
+    position: relative;
+    background: transparent;
+    padding-top: 15%;
+    color: white;
+}
+
+.Welcome button {
+    margin-top: 40px;
+    border-radius: 25px;
+    width: 200px;
+    height: auto;
+    position: relative;
+    font-weight: bold;
+    padding: 10px 0;
+    background: transparent;
+    border: 2px solid rgb(34, 159, 178);
+    color: white;
+}
+
+
+.About {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.about1 {
+    width: 40%;
+    padding-left: 10%;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 12%;
+}
+
+.About h1 {
+    font-style: italic;
+    color: rgb(170, 0, 204);
+    font-size: xx-large;
+}
+
+
+.fotoAbout {
+    width: 50%;
+    text-align: center;
+}
+
+.fotoAbout img {
+    width: 80%;
+    padding-top: 8%;
+}
+
+.Shops {
+    width: 100%;
+    height: auto;
+}
+
+.Shops h1 {
+    text-align: center;
+    padding: 2%;
+}
+
+.shop {
+    width: 1200px;
+    margin: 30px auto 30px auto;
+}
+
+.shops {
+    text-align: center;
+
+}
+
+.Shops1 {
+    max-width: 30%;
+    display: inline-block;
+}
+
+
+
+.Shops1 img {
+    height: auto;
+    width: 60%;
+}
+
+.Shops1 :hover {
+    background-color: rgb(218, 218, 218);
+    transition: 1.5s;
+    border-radius: 5%;
+}
+
+.Certificate {
+    width: 100%;
+    height: auto;
+}
+
+.Certificate h2 {
+    padding: 1%;
+    text-align: center;
+}
+
+.certifac {
+    display: flex;
+}
+
+.cerimg1 {
+    width: 30%;
+    height: 60%;
+    margin-left: 20%;
+}
+
+.cerimg2 {
+    width: 30%;
+    height: 30%;
+}
+
+.Partners {
+    width: 100%;
+    height: 100vh;
+}
+
+.Partners h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+.Europe {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.Europe1 h2 {
+    text-align: left;
+    border-bottom: 1px solid black;
+
+}
+
+.Europe2 img {
+    width: 3.5vw;
+    padding-top: 2%;
+    margin-left: 7%;
+}
+
+.Asia {
+    width: 70%;
+    margin-left: 15%;
+}
+
+.Asia1 h2 {
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+
+.Asia2 img {
+    width: 3.5vw;
+    padding-top: 2%;
+    margin-left: 7%;
+}
+
+footer {
+    display: flex;
+    border-top: 1px solid black;
+    background-color: antiquewhite;
+    height: 81.5vh;
+}
+
+.Foot {
+    margin-top: 10%;
+    margin-left: 6%;
+    width: 40%;
+    font-style: italic;
+    font-size: x-large;
+    text-align: center;
+}
+
+.Contacts {
+    padding-top: 5%;
+}
+
+.Contacts h2 {
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    width: 50%;
+    margin: 10px 100px 30px 150px;
+}
+
+.contact label {
+    font-size: 1em;
+    font-variant: small-caps;
+    margin: 10px 0;
+}
+
+.contact input {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8a6638;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    outline-color: #8a6638;
+}
+
+.contact textarea {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8a6638;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: inherit;
+    outline-color: #8a6638;
+}
+
+.Contacts button {
+    padding: 10px 20px;
+    border: none;
+    font-family: inherit;
+    font-variant: small-caps;
+    font-size: 1em;
+    background: #537cef;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+}
